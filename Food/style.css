@@ -4,23 +4,19 @@
     margin: 0px;
     border: 0px;
     padding: 0px;
+
 }
 nav
 {
     display:flex;
     justify-content: space-between;
-    color: white;
+    color: black;
     font-size: 1.5rem;
     list-style: none;
     text-decoration: none;
     height: 4rem;
     align-items: center;
-    opacity: 3;
-
-  
-
-    
-   
+    opacity: 3;   
 }
 ul
 {
@@ -37,9 +33,7 @@ ul
     border: 2px solid white;
     border-radius: 0.5rem;
     color: black;     
-    background-color: white;
-    
-    
+    background-color: white;    
 }
 a
 {
@@ -47,8 +41,8 @@ a
 }
 a:nth-of-type(1)
 {
-    color: black;
-    font-weight: bold;
+    color: white;
+    font-weight: lighter;
 }
 section
 {
@@ -69,12 +63,12 @@ section::before
     justify-content: center;
     padding: 10px 200px;
     flex-wrap: wrap;
-    background: url("Images/4.jpg");
-    background-position: center;
+    background: url("Images/5.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     position:absolute;
-    width: 100%;
-    height: 100%;
+    width: 73.7%;
+    height: 75%;
     z-index: -1;
     opacity: 0.89;
 }
@@ -86,11 +80,138 @@ section button
 .text
 {
     text-align: center;
-    position: relative;
-    bottom: -15rem;
+    position: absolute;
+    bottom: 25rem;
+    color: white;
+   
 }
 .text p
 {
     max-width: 50%;
     margin: 5 auto;
+}
+
+.text button
+{
+    color: red;
+}
+.service-container
+{
+    position: relative;;
+    top:18rem;
+    text-align: center;
+  
+}
+.service-visuals
+{
+    display: flex;
+  
+}
+#box img
+{
+    height: 35vh;
+    width: 29rem;
+    margin: 6px;
+    
+}
+#box
+{
+    border: 0 auto;
+    border: 2px solid rgb(104, 34, 34);
+    margin: 2px;
+    border-radius: 20px;
+}
+#box p
+{
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+}
+.Parternship::before
+{   
+    content: "";
+    background: url("Images/8.jpg") no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.Parternship
+{
+    position: relative;
+    top: 20rem;
+    margin-top: 0px;
+
+}
+.Parternship h1
+{
+    color: white;
+    text-align: center;
+}
+.fab
+{
+    
+    font-size: 12rem;
+}
+.icons
+{
+    display:flex;
+    justify-content:space-evenly;
+    color: white;
+}
+.contact-form::before
+{
+    content:"";
+    background: url("Images/6.jpg")  no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+.contact-form
+{
+    position: relative;
+    bottom: -20rem;
+    height: 400px;
+   
+}
+
+input
+{
+    display: block;
+    width: 500px;
+    padding-bottom: 1rem;
+    margin-top: 5px;
+    border: 2px solid black;
+}   
+
+.form-group
+{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.container 
+{
+    width: 100%;
+    display: block;
+}
+.contact-form h1
+{
+    text-align:center;
+}
+textarea
+{
+    width: 500px;
+    margin-top: 5px;
+}
+.copyright
+{
+    position: relative;
+    bottom: -20rem;
+    text-align: center;
+    height: 30px;
+    background: rgb(18, 25, 46);   
+    color:white;
 }
